@@ -1,0 +1,48 @@
+.lece img{
+  border: 10px solid #333;
+   border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  margin-top: 80px;
+  margin-left: 260px;
+  width: 40%;
+   box-shadow: 10px 10px 5px #333;
+  transition: transform 0.3s ease-in-out;
+}
+body{
+     background-color: rgb(255, 192, 203);
+}
+.lec p{
+     text-align: center;
+     padding: 10px 20px;
+     font-family: 'Arial', sans-serif;
+  font-size: 20px;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: rgb(255, 204, 204);
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+.lec h3{
+     text-align: center;
+     padding: 10px 20px;
+
+}
+.lece img:hover{
+      transform: scale(1.2);
+}
+figure {
+  position: relative;
+}
+figure figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+}
+.author {
+  font-style: italic;
+  text-align: right;
+  margin-top: 20px;
+}
